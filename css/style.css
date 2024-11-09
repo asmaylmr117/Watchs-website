@@ -694,115 +694,95 @@ font-size: 40px;
 }
 /* ---------------------/sec6------------------------------ */
 .pricing{
-   padding-top: 120px;
-   text-align: center; 
-}
-.pricing-container{
-    width: 80%;
-    margin: auto;
-}
-.pricing-divs{
-    overflow: auto;
-     padding: 50px 
-}
-.pricimg-div1{
-    width: 30%;
-    border: 1px solid rgb(151, 151, 216);
-    padding: 30px 15px;
-    float: left;
-    text-align: center;
-    border-radius: 10px;
-    position: relative;
-    background-color: #eaedf7;
-}
-.pricing-title{
-    font-size: 40px;
-    position:relative ;
-}
-.pricing-title::after{
-    content: "";
-    position: absolute;
-    bottom: -12px; /* المسافة بين الخط والنص */
-    right: 50%;
-    left: 45%;
-    width:10%; /* عرض الخط السفلي */
-    height: 3px; /* سماكة الخط السفلي */
-    background-color: #1111ca; /* لون الخط */
+    padding-top: 120px;
+    text-align: center; 
+ }
+ .pricing-container{
+     width: 80%;
+     margin: auto;
+ }
+ .pricing-divs{
+     overflow: auto;
+      padding: 50px 
+ }
+ .pricimg-div1{
+     width: 30%;
+     border: 1px solid rgb(135, 135, 230);
+     padding: 30px 15px;
+     float: left;
+     text-align: center;
+     border-radius: 10px;
+     position: relative;
+ }
+ .pricing-title{
+     font-size: 40px;
+ }
+ .div-pric2{
+     margin: 0 5%;
+ }
+ .pricimg-div1-p{
+     text-transform: uppercase;
+     color: black;
+ }
+ .pricing-div1-month{
+     width: 100px;
+     height: 100px;
+     border-radius: 50%;
+     border: 2px solid rgb(135, 135, 230);
+     margin: 20px auto;
+     padding: 12px 0;
     
-    z-index: 3;
-}
-
-.div-pric2{
-    margin: 0 5%;
-}
-.pricimg-div1-p{
-    text-transform: uppercase;
-    color: rgb(0, 0, 0);
-
-}
-.pricing-div1-month{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    border: 2px solid rgb(66, 66, 179);
-    margin: 20px auto;
-    padding: 12px 0;
-   
-}
-.h3-dollar{
-font-size: 35px;
-}
-.span-month {
-text-transform: uppercase;
-}
-.pricing-ul,.pricing-btn{
-    list-style: none;
-    text-transform: capitalize;
-}
-.pricing-ul li{
-    padding: 10px 0;
-}
-.pricing-btn{
-    width: 170px;
-    height: 30px;
-    border: 2px solid  rgb(135, 135, 230);
-    margin-top: 10px;
-    border-radius: 10px;
-}
-.pricimg-div1:after{
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 0;
-    top: 0;
-    left: 0;
-    background-color: rgb(185, 189, 209);
-    transition: .5s;
-    opacity: 0.3;
-    border-radius: 10px;
-    z-index: 1;
-}
-.pricimg-div1:hover:after{
-width: 100%;
-height: 100%;
-opacity: 0.5;
-transition: 0.5s;
-}
-.pricimg-div1:hover .pricing-div1-month  {
-    border: 2px solid rgb(26, 26, 163); 
-   
-}
-.pricimg-div1:hover .pricimg-div1-p {
-color: rgb(56, 12, 255) ;
-
-}
-.pricimg-div1:hover .pricing-ul{
-    color: rgb(11, 7, 255) ;
-}
-.pricimg-div1:hover .pricing-btn{
-   background-color: rgb(99, 97, 243) ; 
-   color:#eaedf7;
-}
+ }
+ .h3-dollar{
+ font-size: 35px;
+ }
+ .span-month {
+ text-transform: uppercase;
+ }
+ .pricing-ul,.pricing-btn{
+     list-style: none;
+     text-transform: capitalize;
+ }
+ .pricing-ul li{
+     padding: 10px 0;
+ }
+ .pricing-btn{
+     width: 170px;
+     height: 30px;
+     border: 2px solid  rgb(135, 135, 230);
+     margin-top: 10px;
+     border-radius: 10px;
+ }
+ .pricimg-div1:after{
+     position: absolute;
+     content: "";
+     width: 100%;
+     height: 0;
+     top: 0;
+     left: 0;
+     background-color:rgb(135, 135, 230);
+     transition: .5s;
+     opacity: .5;
+     border-radius: 10px;
+     z-index: -1;
+ }
+ .pricimg-div1:hover:after{
+ width: 100%;
+ height: 100%;
+ opacity: 0.5;
+ transition: 0.5s;
+ }
+ .pricimg-div1:hover .pricing-div1-month  {
+     border: 2px solid rgb(26, 26, 163); 
+    
+ }
+ .pricimg-div1:hover .pricimg-div1-p {
+ color: rgb(26, 26, 163) ;
+ }
+ .pricimg-div1:hover .pricing-btn {
+    background-color: #392fc5;
+    color:#ededf5;
+ }
 /* -----------/--------------------------- */
 .parent-about{
     width: 100%;
